@@ -1,0 +1,394 @@
+@font-face {
+  font-family: 'Karla Bold';
+  src: url('fonts/Karla-Bold.ttf');
+}
+.karla-bold { font-family: 'Karla Bold'; }
+
+@font-face {
+  font-family: 'Karla Bold Italic';
+  src: url('fonts/Karla-BoldItalic.ttf');
+}
+.karla-bold-italic { font-family: 'Karla Bold Italic'; }
+
+@font-face {
+  font-family: 'Karla Italic';
+  src: url('fonts/Karla-Italic.ttf');
+}
+.karla-italic { font-family: 'Karla Italic'; }
+
+@font-face {
+  font-family: 'Karla';
+  src: url('fonts/Karla-Regular.ttf');
+}
+.karla { font-family: 'Karla'; }
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('fonts/Pacifico.ttf');
+}
+.pacifico { font-family: 'Pacifico';
+}
+
+body
+{
+  margin: 5;
+  text-align: center;
+  color:#2d2d2d;
+  font-family: karla;
+  font-size: 16px;
+  line-height: 1.25em;
+  box-sizing: border-box;
+}
+
+/*Following code for mobole application*/
+
+@media(max-width:600px)
+{
+  #aid{
+    color:yellow;
+  }
+
+  #socialmedia
+  {
+    color:white;
+  }
+#namediv
+{
+  width:100px;
+  height:20px;
+  background-color: green;
+}
+
+#menutext
+{
+  font-size: 25px;
+}
+
+#heading
+{
+display: flex;
+width: 100%;
+height:120px;
+flex-direction: row;
+justify-content: center;
+}
+#heading1
+{
+width: 450px;
+height:120px;
+background-color: red;
+text-align: center;
+}
+#heading, h1{
+padding-top: 5px;
+color:white;
+font-size: 1.2em;
+font-family:karla-bold;
+}
+
+#secondheading
+{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  height:70px;
+  justify-content: center;
+}
+
+#firstpart, p
+{
+  color:white;
+  font-size: 18px;
+  /*padding-left: 5px;*/
+}
+
+#firstpart
+{
+    width:90px;
+    height:50px;
+    background-color:green;
+    padding-top:25px;
+    text-align: left;
+    padding-left:5px;
+}
+
+#secondpart
+{
+  width:150px;
+  height:50px;
+  background-color: green;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#thirdpart
+{
+  width:200px;
+  height:50px;
+  background-color: green;
+  color:white;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 5px;
+}
+
+#order-item
+{
+display: flex;
+flex-direction: row-reverse;
+width:100%;
+height:620px;
+justify-content: center;
+}
+
+#itemdiv
+{
+  width:100px;
+  height:620px;
+  overflow: scroll;
+}
+
+#div1, img
+{
+ width:100px;
+ height:100px;
+}
+
+#price
+{
+  width:350px;
+  height:620px;
+  background-color: #800080;
+  overflow: scroll;
+  align-items: center;
+}
+
+#price-table, #sumtable
+{
+  padding:2px;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+
+#orderno, #cashdue, #change
+{
+  width:70px;
+  font-size: 20px;
+  color: red;
+}
+#totalbtn
+{
+margin-left: 5px;
+}
+
+#delbtn, #totalbtn, #duebtn, #resetbtn,#printbtn
+{
+  background-color: #e62b86;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#social-media
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width:100%;
+  height:70px;
+}
+
+#media
+{
+  width:430px;
+  height:70px;
+  background-color: black;
+  padding-right: 25px;
+}
+
+nav ul li{
+  display: inline;
+
+}
+
+}
+
+
+/*Following code fo desktop application*/
+
+@media(min-width:601px)
+{
+  #aid{
+    color:yellow;
+  }
+
+  #socialmedia
+  {
+    color:white;
+  }
+  #menutext
+  {
+    font-size: 25px;
+  }
+
+  #heading
+  {
+  display: flex;
+  width: 100%;
+  height:150px;
+  flex-direction: row;
+  justify-content: center;
+  }
+  #heading1
+  {
+  width: 100%;
+  height:150px;
+  background-color: red;
+  text-align: center;
+  }
+  #heading, h1{
+  padding-top: 5px;
+  color:white;
+  font-size:1.5em;
+  font-family:karla-bold;
+  }
+
+  #secondheading
+  {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:70px;
+    justify-content: center;
+  }
+
+  #firstpart, p
+  {
+    color:white;
+    font-size: 25px;
+    /*padding-left: 5px;*/
+  }
+
+  #firstpart
+  {
+      width:25%;
+      height:50px;
+      background-color:green;
+      padding-top:20px;
+      text-align: left;
+      padding-left:10px;
+  }
+
+  #secondpart
+  {
+    width:35%;
+    height:50px;
+    background-color: green;
+    text-align: left;
+    padding-top: 20px;
+  }
+
+  #thirdpart
+  {
+    width:40%;
+    height:50px;
+    background-color: green;
+    color:white;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 5px;
+    font-size: 25px;
+  }
+
+  #order-item
+  {
+    width:100%;
+    height:500px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #itemdiv
+  {
+    width:50%;
+    height:500px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+
+  }
+
+  #price
+  {
+    width:50%;
+    height:500px;
+    background-color: #00A54E;
+    overflow: scroll;
+    align-items: right;
+  }
+
+  #div1, img
+  {
+   width:150px;
+   height:150px;
+   /*padding:5px;*/
+
+  }
+
+  #namediv
+  {
+    width:150px;
+    height:20px;
+    background-color: green;
+  }
+  #sumtable, #price-table
+  {
+    width:100%;
+    text-align: left;
+    color:white;
+    font-size: 25px;
+  }
+
+  #orderno, #cashdue, #change
+  {
+    width:70px;
+    font-size: 20px;
+    color: red;
+  }
+  #totalbtn
+  {
+  margin-left: 5px;
+  }
+
+  #delbtn, #totalbtn, #duebtn, #resetbtn,#printbtn
+  {
+    background-color: #e62b86;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #social-media
+  {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:70px;
+  }
+
+  #media
+  {
+    width:100%;
+    height:70px;
+    background-color: black;
+    padding-right: 25px;
+  }
+
+  nav ul li{
+    display: inline;
+    padding: 20px;
+
+  }
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Online Food Order System</title>
+<meta author="Islam" content="Online Food Order system">
+<meta name="viewport" content="width=device-width" initial-scale="1" media="screen">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="css/reset.css" rel="stylesheet" type="text/css"/>
+
+<link rel="stylesheet" href="css/foodstyle.css" type="text/css"/>
+<script type="text/javascript" src="foodorder.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="heading">
+  </div>
+
+  <div class="menubtn" id="secondheading">
+  </div>
+
+<div id="order-item">
+
+  <div id="itemdiv"></div>
+  <div id="price">
+      <table id="price-table" border="1" alt="price-table" cellpadding="2">
+        <th>
+
+            <td>Item</td>
+            <td>Price</td>
+            <td>Qty</td>
+            <td>Total</td>
+        </th>
+      </table>
+      <input type="button" id="totalbtn"  onclick="totalbtn()" value="Calculation"></input>
+      <div id="sumdiv" alt="sum-information">
+        <table id="sumtable"></table>
+    </div>
+  </div>
+</div>
+<social class="social-media" id="social-media">
+  <div id="media">
+    <nav>
+    <ul>
+      <li>
+        <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i><span class="sol1">Facbook</span></a>
+      </li>
+      <li>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i><span class="sol1">Twitter</span></a>
+      </li>
+      <li>
+        <a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i><span class="sol1">Instagram</span></a>
+      </li>
+      <li>
+        <a href="http://www.pinterest.com" target="_blank"><i class="fa fa-pinterest"></i><span class="sol1">Pinterest</span></a>
+      </li>
+      <li>
+        <a href="http://www.googleplus.com" target="_blank"><i class="fa fa-google-plus"></i><span class="sol1">Google+</span></a>
+      </li>
+    </ul>
+  </nav>
+</div>
+</social>
+</body>
+</html>
