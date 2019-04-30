@@ -9,7 +9,7 @@ div1.setAttribute("id", "heading1");
  var h1t= document.createTextNode("Online Food Order System");
  var a = document.createElement("a");
    a.setAttribute("id","aid");
- var at= document.createTextNode("Design & Developed");
+ var at= document.createTextNode("Designed & Developed");
  a.href="#";
 
  var social= document.createElement('p');
